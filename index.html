@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>OleKoder Portofolio</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Ole Håvard Furuseth Bergan</h1>
+				<h2>Frontend • React / Next.js • Tailwind • JavaScript / TypeScript</h2>
+			</header>
+			<section>
+				<h2>Projects</h2>
+
+				<div class="projects-grid">
+					<a href="#p1">
+						<div class="card">
+							<h3>OleKoder Blogg</h3>
+							<img src="./images/olekoder-blogg.png" alt="OleKoder Blogg preview" />
+							<p>
+								Personal blog with clean typography, categories, and a focused reading experience.
+							</p>
+						</div>
+					</a>
+					<a href="#p2">
+						<div class="card">
+							<h3>KapBot</h3>
+							<img src="./images/kapbot.png" alt="KapBot preview" />
+							<p>A bot project focusing on reliability, clean commands, and easy configuration.</p>
+						</div>
+					</a>
+
+					<a href="#p3">
+						<div class="card">
+							<h3>Shiny Hunter Counter</h3>
+							<img src="./images/shiny-hunt-counter.png" alt="Shiny Hunter Counter preview" />
+							<p>A small utility to track hunts, sessions, and milestones with minimal friction.</p>
+						</div>
+					</a>
+
+					<a href="#p4">
+						<div class="card">
+							<h3>Square Eyes</h3>
+							<img src="./images/square-eyes.png" alt="Square Eyes preview" />
+							<p>Video store concept with browsing, product pages, and a polished checkout flow.</p>
+						</div>
+					</a>
+
+					<a href="#p5">
+						<div class="card">
+							<h3>Community Science Museum</h3>
+							<img
+								src="./images/community-science-museum.png"
+								alt="Community Science Museum preview"
+							/>
+							<p>Informational site with clear IA, accessible components, and modern layout.</p>
+						</div>
+					</a>
+
+					<a href="#p6">
+						<div class="card">
+							<h3>RainyDays</h3>
+							<img src="./images/rainydays.png" alt="RainyDays preview" />
+							<p>
+								Jacket shop concept with strong visual hierarchy and focused product storytelling.
+							</p>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<!-- DIALOG boxes -->
+			<div>
+				<dialog id="p1" aria-label="OleKoder Blogg dialog">
+					<a class="overlay-close" href="#projects" aria-label="Close dialog"></a>
+					<div class="modal" role="document">
+						<div class="modal-grid">
+							<div class="modal-media">
+								<img src="./images/olekoder-blogg.png" alt="OleKoder Blogg large preview" />
+							</div>
+							<div class="modal-content">
+								<div class="modal-top">
+									<h3>OleKoder Blogg</h3>
+									<a class="close" href="#projects" aria-label="Close">✕</a>
+								</div>
+								<div class="meta">
+									<span class="chip">WCAG</span>
+									<span class="chip">HMTL</span>
+									<span class="chip">CSS</span>
+									<span class="chip">JavaScript</span>
+									<span class="chip">Components</span>
+									<span class="chip">API</span>
+									<span class="chip">SEO</span>
+									<span class="chip">Responsive</span>
+								</div>
+								<p class="modal-desc">
+									A personal writing platform with fast navigation, readable typography, and a calm
+									UI. Includes category pages, featured posts, and responsive layouts designed for
+									long-form reading.
+								</p>
+								<div class="buttons">
+									<a class="btn primary" href="#projects">Back to projects</a>
+									<a
+										class="btn"
+										href="https://olekoders-blogg.vercel.app/"
+										aria-label="Placeholder link"
+										target="_blank"
+									>
+										Live demo
+									</a>
+									<a
+										class="btn"
+										href="https://github.com/OleKoderNo/olekoders-blogg"
+										aria-label="Github repository link"
+										target="_blank"
+									>
+										GitHub repository
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</dialog>
+
+				<dialog id="p2" aria-label="KapBot dialog">
+					<a class="overlay-close" href="#projects" aria-label="Close dialog"></a>
+					<div class="modal" role="document">
+						<div class="modal-grid">
+							<div class="modal-media">
+								<img src="./images/kapbot.png" alt="KapBot large preview" />
+							</div>
+							<div class="modal-content">
+								<div class="modal-top">
+									<h3>KapBot</h3>
+									<a class="close" href="#projects" aria-label="Close">✕</a>
+								</div>
+								<div class="meta">
+									<span class="chip">Node</span>
+									<span class="chip">JavaScript</span>
+									<span class="chip">JSON</span>
+									<span class="chip">DiscordJS (npm package)</span>
+									<span class="chip">Logging</span>
+									<span class="chip">DX</span>
+									<span class="chip">Self hosting</span>
+								</div>
+								<p class="modal-desc">
+									A bot project emphasizing maintainable commands, predictable behavior, and a
+									simple setup. Built with clear structure and a “no surprises” approach to
+									configuration.
+								</p>
+								<div class="buttons">
+									<a class="btn primary" href="#projects">Back to projects</a>
+									<a
+										class="btn"
+										href="https://github.com/OleKoderNo/kapbot"
+										aria-label="Github repository link"
+										target="_blank"
+									>
+										GitHub repository
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</dialog>
+
+				<dialog id="p3" aria-label="Shiny Hunter Counter dialog">
+					<a class="overlay-close" href="#projects" aria-label="Close dialog"></a>
+					<div class="modal" role="document">
+						<div class="modal-grid">
+							<div class="modal-media">
+								<img
+									src="./images/shiny-hunt-counter.png"
+									alt="Shiny Hunter Counter large preview"
+								/>
+							</div>
+							<div class="modal-content">
+								<div class="modal-top">
+									<h3>Shiny Hunter Counter</h3>
+									<a class="close" href="#projects" aria-label="Close">✕</a>
+								</div>
+								<div class="meta">
+									<span class="chip">HMTL</span>
+									<span class="chip">CSS</span>
+									<span class="chip">JavaScript</span>
+									<span class="chip">DX</span>
+									<span class="chip">Responsive</span>
+								</div>
+								<p class="modal-desc">
+									A lightweight counter that makes tracking hunts effortless. Focus on fast
+									interaction, clear stats, and a layout that stays out of the way while you play.
+								</p>
+								<div class="buttons">
+									<a class="btn primary" href="#projects">Back to projects</a>
+									<a
+										class="btn"
+										href="https://shiny-hunt-counter.vercel.app/"
+										aria-label="Live site link"
+										target="_blank"
+									>
+										Live site
+									</a>
+									<a
+										class="btn"
+										href="https://github.com/OleKoderNo/shiny-hunt-counter"
+										aria-label="Github repository link"
+										target="_blank"
+									>
+										GitHub repository
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</dialog>
+
+				<dialog id="p4" aria-label="Square Eyes dialog">
+					<a class="overlay-close" href="#projects" aria-label="Close dialog"></a>
+					<div class="modal" role="document">
+						<div class="modal-grid">
+							<div class="modal-media">
+								<img src="./images/square-eyes.png" alt="Square Eyes large preview" />
+							</div>
+							<div class="modal-content">
+								<div class="modal-top">
+									<h3>Square Eyes</h3>
+									<a class="close" href="#projects" aria-label="Close">✕</a>
+								</div>
+								<div class="meta">
+									<span class="chip">WCAG</span>
+									<span class="chip">HTML</span>
+									<span class="chip">CSS</span>
+									<span class="chip">JavaScript</span>
+									<span class="chip">SEO</span>
+									<span class="chip">E-commerce</span>
+									<span class="chip">Routing</span>
+									<span class="chip">UI System</span>
+									<span class="chip">Responsive</span>
+								</div>
+								<p class="modal-desc">
+									A storefront concept with strong hierarchy and clean product discovery. Designed
+									around delightful browsing and clear CTAs, with responsive patterns that scale
+									nicely.
+								</p>
+								<div class="buttons">
+									<a class="btn primary" href="#projects">Back to projects</a>
+									<a
+										class="btn"
+										href="https://olekoderno.github.io/square-eyes/"
+										aria-label="Live demo link"
+										target="_blank"
+									>
+										Live demo
+									</a>
+									<a
+										class="btn"
+										href="https://github.com/OleKoderNo/square-eyes"
+										aria-label="Github repository link"
+										target="_blank"
+									>
+										GitHub reposetory
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</dialog>
+
+				<dialog id="p5" aria-label="Community Science Museum dialog">
+					<a class="overlay-close" href="#projects" aria-label="Close dialog"></a>
+					<div class="modal" role="document">
+						<div class="modal-grid">
+							<div class="modal-media">
+								<img
+									src="./images/community-science-museum.png"
+									alt="Community Science Museum large preview"
+								/>
+							</div>
+							<div class="modal-content">
+								<div class="modal-top">
+									<h3>Community Science Museum</h3>
+									<a class="close" href="#projects" aria-label="Close">✕</a>
+								</div>
+								<div class="meta">
+									<span class="chip">WCAG</span>
+									<span class="chip">HTML</span>
+									<span class="chip">CSS</span>
+									<span class="chip">Responsive</span>
+								</div>
+								<p class="modal-desc">
+									A museum website with accessibility-first layout choices: clear headings, strong
+									contrast, readable spacing, and consistent components. Built to be informative and
+									welcoming.
+								</p>
+								<div class="buttons">
+									<a class="btn primary" href="#projects">Back to projects</a>
+									<a
+										class="btn"
+										href="https://olekoderno.github.io/SemesterProject1---Community-Science-Museum-Project/"
+										aria-label="Live demo link"
+										target="_blank"
+									>
+										Live demo
+									</a>
+									<a
+										class="btn"
+										href="https://github.com/OleKoderNo/SemesterProject1---Community-Science-Museum-Project"
+										aria-label="Github reposetory link"
+										target="_blank"
+									>
+										GitHub reposetory
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</dialog>
+
+				<dialog id="p6" aria-label="RainyDays dialog">
+					<a class="overlay-close" href="#projects" aria-label="Close dialog"></a>
+					<div class="modal" role="document">
+						<div class="modal-grid">
+							<div class="modal-media">
+								<img src="./images/rainydays.png" alt="RainyDays large preview" />
+							</div>
+							<div class="modal-content">
+								<div class="modal-top">
+									<h3>RainyDays</h3>
+									<a class="close" href="#projects" aria-label="Close">✕</a>
+								</div>
+								<div class="meta">
+									<span class="chip">Brand UI</span>
+									<span class="chip">WCAG</span>
+									<span class="chip">HTML</span>
+									<span class="chip">CSS</span>
+									<span class="chip">Responsive</span>
+								</div>
+								<p class="modal-desc">
+									An e-commerce concept focused on product storytelling and a premium feel. Strong
+									layout rhythm, clear CTAs, and a simple path to purchase.
+								</p>
+								<div class="buttons">
+									<a class="btn primary" href="#projects">Back to projects</a>
+									<a
+										class="btn"
+										href="https://olekoderno.github.io/RainyDays/"
+										aria-label="Live demo link"
+										target="_blank"
+									>
+										Live demo
+									</a>
+									<a
+										class="btn"
+										href="https://github.com/OleKoderNo/RainyDays"
+										aria-label="Github repository link"
+										target="_blank"
+									>
+										GitHub repository
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</dialog>
+			</div>
+
+			<section>
+				<h2>Experience</h2>
+				<div class="experience-grid">
+					<div class="company-card">
+						<h3>Noroff</h3>
+						<p class="date">March 2025 -></p>
+						<p>
+							I wanted to enhance my skillset as a developer and go back to the core. I realised
+							there is alot more to learn and found out the best way to become the best possible
+							developer I can is to go back to school. So here I am working on my degree.
+						</p>
+					</div>
+					<div class="company-card">
+						<h3>Skavl Media AS</h3>
+						<p class="date">20.03.24 - 28.06.24</p>
+						<p>
+							At Skavl Media AS I was tasked to rewrite the entire CSS of a newspaper called
+							midtsiden. I changed it from React Components over to Tailwind CSS. Here I used a
+							techstack of NextJS, TypeScript, Tailwind and got taught the propper way of utilizing
+							AI.
+						</p>
+					</div>
+					<div class="company-card">
+						<h3>Kodeverket Bergen</h3>
+						<p class="date">28.10.22 - 31.05.23</p>
+						<p>
+							In my internship at Kodeverket Bergen I was techlead. This is a startup made my
+							Kodehode. I was responsible to tech the new intern the techstack we used. I was a big
+							part of the onboarding, I made tasks for potentiall new interns, and I was the one
+							responsible for fixing errors.
+						</p>
+					</div>
+					<div class="company-card">
+						<h3>Bjørnafjorden Næringsråd</h3>
+						<p class="date">20.09.22 - 31.10.22</p>
+						<p>
+							At Bjørnagjorden Næringsråd I was a intern with the task to recreate the webpage they
+							had in WIX.
+						</p>
+					</div>
+					<div class="company-card">
+						<h3>Octaos</h3>
+						<p class="date">20.06.22 - 22.09.22</p>
+						<p>
+							My first internship was at Octaos. Here I was challanged on thinking in a new way. I
+							was working with React, FireBase and Google Maps. My task was pretty much to use
+							FireBase as a BaaS to create something simular to a CMS, and use google maps to create
+							a overview over customers location. This also worked with a /admin url on the webpage
+							for editing.
+						</p>
+					</div>
+					<div class="company-card">
+						<h3>Kodehode</h3>
+						<p class="date">06.01.22 - 06.02.23</p>
+						<p>
+							In january 2022 I started my journey as a webdeveloper and took a 1 year course. Here
+							I got experience in HTML, CSS, JavaScript and ReactJS.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Techstack</h2>
+				<p class="lead">Over the years I have accuired myself a pretty solid tech stack.</p>
+				<ul class="tech-list">
+					<li>Semantic HTML</li>
+					<li>WCAG certifiticate</li>
+					<li>CSS</li>
+					<li>Tailwind</li>
+					<li>SASS</li>
+					<li>JavaScript</li>
+					<li>TypeScript</li>
+					<li>ReactJS</li>
+					<li>NextJS</li>
+					<li>i18next</li>
+					<li>Sanity</li>
+					<li>FireBase</li>
+					<li>Wordpress</li>
+					<li>WIX</li>
+					<li>Python</li>
+					<li>Docker</li>
+					<li>Postgress SQL</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>About me</h2>
+				<p class="about">
+					I am a very social person. I love to travel, learn new stuff and experience life to the
+					fullest. I also do alot of volenteering.
+				</p>
+				<h3>Some of my hobbies</h3>
+				<p>I love to travel. In the last year I've traveled to Singapore twice.</p>
+				<p>
+					Games is something I do enjoy. I love videogames, boardgames and cardgames. One of my
+					guilty pleasures is Pokémon TCG and I have a active collection I am increasing.
+				</p>
+				<h3>Volenteering</h3>
+				<p>
+					Since 2019 volenteering has been a huge part of my life. I started voulenteering at a
+					nursing home, a open kindergarden and a intergration activity in october/november 2019. I
+					did all three activities until Norway got closed down due to the pandemic and
+					voulenteering took a big hit. After it opened up again I only stuck with Folkevenn, the
+					intergration activity. I have since then also become a member, and a boardmember, of Norsk
+					Folkehjelp Solidaritetsungdom Bergen, and have in the recent years been the financial
+					advisor for the youth team of Norsk Folkehjelp in Bergen. Since 2025 I also became the
+					leader for Folkevenn, and I was sitting on the board for feminism and anti racism at Norsk
+					Folkehjelp Solidaritetsundom national wide.
+				</p>
+			</section>
+		</main>
+	</body>
+</html>
