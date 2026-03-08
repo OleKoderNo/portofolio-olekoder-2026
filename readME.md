@@ -134,8 +134,7 @@ This project highlights several skills:
 ## Live Demo
 
 You can view the live version here:
-https://olekoders-blogg.vercel.app/
-
+https://olekoderno.github.io/portofolio-olekoder-2026
 ## About Me
 
 I'm a frontend developer based in **Bergen, Norway**, currently studying at **Noroff** while continuing to expand my skillset.
