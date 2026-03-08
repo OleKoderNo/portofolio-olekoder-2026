@@ -29,8 +29,8 @@ Everything you see in this project is handled using **native browser capabilitie
 
 There were a few main reasons behind creating this:
 
-1. Show the power of HTML & CSS
-   Modern web development often jumps straight to frameworks. While those tools are incredibly useful, they can also hide how powerful the platform itself already is.
+**1. Show the power of HTML & CSS**
+Modern web development often jumps straight to frameworks. While those tools are incredibly useful, they can also hide how powerful the platform itself already is.
 
 This project demonstrates that:
 
@@ -38,8 +38,8 @@ This project demonstrates that:
 - CSS alone can handle responsive design and interaction
 - Native browser features can replace a surprising amount of JavaScript
 
-2. A personal technical challange
-   Constraining the technology stack forces creative solutions.
+**2. A personal technical challange**
+Constraining the technology stack forces creative solutions.
 
 Examples in this project include:
 
@@ -47,8 +47,8 @@ Examples in this project include:
 - Handeling responsive layouts purely with Flexbox
 - Structuring components in a reusable visual pattern without JS
 
-3. A different type of portfolio piece
-   Most of my work demonstates **modern application architecture** using frameworks and TypeScript.
+**3. A different type of portfolio piece**
+Most of my work demonstates **modern application architecture** using frameworks and TypeScript.
 
 This project instead highlights:
 
