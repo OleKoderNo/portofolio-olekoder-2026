@@ -295,6 +295,53 @@ dialog:target::before {
 	background: rgba(111, 200, 255, 0.15);
 }
 
+.documents-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 0.875rem;
+}
+
+.document-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 1rem;
+	border: var(--border);
+	border-radius: 1rem;
+	background: rgba(255, 255, 255, 0.02);
+	transition: 0.2s ease;
+}
+
+.document-card:hover {
+	transform: translateY(-0.125rem);
+	border-color: var(--hover-border);
+	background: var(--hover-bg);
+}
+
+.document-card__content h3 {
+	margin: 0 0 0.375rem;
+}
+
+.document-card__content p {
+	margin: 0;
+	color: var(--muted);
+	line-height: 1.5;
+}
+
+.document-card__arrow {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 0.75rem;
+	border: var(--border-soft);
+	color: var(--muted);
+	flex-shrink: 0;
+	background: rgba(255, 255, 255, 0.04);
+}
+
 /* ------------------ MEDIA QUERIES ------------------ */
 
 @media (min-width: 768px) {
@@ -317,6 +364,23 @@ dialog:target::before {
 
 	.modal-content {
 		flex: 0.8;
+	}
+}
+
+@media (min-width: 768px) {
+	.documents-grid {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.documents-grid > .document-card {
+		flex: 0 0 calc(50% - 0.4375rem);
+	}
+}
+
+@media (min-width: 1020px) {
+	.documents-grid > .document-card {
+		flex: 0 0 calc(33.333% - 0.583375rem);
 	}
 }
 
